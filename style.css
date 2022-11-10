@@ -1,0 +1,14 @@
+body {
+    background-color:rgb(245, 245, 245);
+}
+
+img.logo {
+    height: 75px;
+    width: 190px;
+}
+
+.btn-primary {
+    border-radius: 24px;
+    background-color: #202E5F;
+    border: none;
+}
