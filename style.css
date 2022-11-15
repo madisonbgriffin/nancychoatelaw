@@ -17,8 +17,12 @@ img.logo {
 }
 footer{
     background-color:#85879F;
+    color: #202E5F;
 }
 svg{
     text-align: center;
+}
+.bottom{
+    text-align: bottom;
 }
 
