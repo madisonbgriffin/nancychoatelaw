@@ -65,6 +65,11 @@ svg{
 }
 
 #home-cover-background {
-    filter: brightness(70%);
+    filter: brightness(50%);
 }
+
+#home-nav {
+    color: white;
+}
+
 
