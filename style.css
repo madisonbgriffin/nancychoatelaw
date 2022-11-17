@@ -2,11 +2,6 @@ body {
     background-color:rgb(245, 245, 245);
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 .nav-custom {
     background-color:#9798aa;
 }
@@ -24,10 +19,7 @@ body {
 }
 .nav-link:hover{
     color: #CEA967;
-    
 }
-
-
 
 img.logo {
     height: 75px;
@@ -62,6 +54,17 @@ svg{
     font-size: 50px;
 }
 #circle-pic{
-    border-radius: 200%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#demo-pic{
+    height: 300px;
+    width: 400px;
+}
+
+#home-cover-background {
+    filter: brightness(70%);
 }
 
