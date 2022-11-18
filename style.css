@@ -3,7 +3,8 @@ body {
 }
 
 .nav-custom {
-    background-color:#9798aa;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 3px 3px #9798aa57;
 }
 
 .btn-nav-flex-container {
