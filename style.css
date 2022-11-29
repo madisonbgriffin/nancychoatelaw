@@ -77,4 +77,41 @@ svg{
 background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43%, rgba(246,239,226,1) 100%);
 
 }
+#circle {
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background: navy;
+  }
+  .circle{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  #sname {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: rgba(1,1,1,0.7);
+}
 
+#sname a {
+    font-weight: bold;
+    font-size: 40px;
+    transition: all 500ms;
+}
+    
+#sname a:hover {
+    font-size:60px;
+    position: relative;
+    font-size-adjust: 30px;
+}
+#sname a:hover:after {
+    content: url(image/circle.PNG); /* no need for qoutes */
+    display: circle;
+    position: absolute;
+    left: 123px; /* change this value to one that suits you */
+    top: 56px; /* change this value to one that suits you */
+}
