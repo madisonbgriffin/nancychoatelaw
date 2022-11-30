@@ -1,4 +1,1 @@
-const hiddenElements = document.querySelectorAll();
-const observer = new IntersectionObserver((entries) => {
-
-});
+document.getElementById("test").children[0].className += " load";

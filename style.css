@@ -94,19 +94,21 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
   #sname {
     margin-top: 100px;
     margin-bottom: 100px;
-    color: rgba(1,1,1,0.7);
+    color: #CEA967;
 }
 
 #sname a {
     font-weight: bold;
     font-size: 40px;
-    transition: all 500ms;
+    transition:500ms;
+    color: #CEA967;
 }
     
 #sname a:hover {
     font-size:60px;
     position: relative;
     font-size-adjust: 30px;
+    color:#7b7fcc57
 }
 #sname a:hover:after {
     content: url(image/circle.PNG); /* no need for qoutes */
@@ -115,3 +117,47 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
     left: 123px; /* change this value to one that suits you */
     top: 56px; /* change this value to one that suits you */
 }
+#hoversol {
+    display: none;
+    transition-duration: 7ms;
+    left: 232px;
+}
+    
+a:hover + #hoversol {
+    display: block;
+}
+.btnp {
+    transition: transform 250ms;
+  }
+  
+  .btnp:hover {
+    transform: translateY(-20px);
+
+  }
+  .btnp{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(243,234,216);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .zoom-in {
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    animation: zoom-in 4s ;
+  }
+  
+  @keyframes zoom-in {
+    100% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+    
+  }
