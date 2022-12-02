@@ -18,7 +18,12 @@ body {
     text-decoration: none; 
     position: relative;
 }
+
 .nav-link:hover{
+    color: #CEA967;
+}
+
+.active {
     color: #CEA967;
 }
 
@@ -27,33 +32,45 @@ img.logo {
     width: 190px;
 }
 
-.btn {
+.btn-contact {
     border-radius: 24px;
     background-color: #202E5F;
     border: none;
     color: white;
 }
+
+.btn-contact:hover {
+    background-color: #9798aa57;
+    color: #CEA967;
+}
+
 footer{
     background-color:#9798aa;
     color: #202E5F;
 }
+
 svg{
     text-align: center;
 }
+
 .bottom{
     text-align: bottom;
 }
+
 .footer-custom{
     color: #202E5F;
 }
+
 .footer-custom:hover{
     color: #CEA967;
 }
+
 .custom-header{
     text-align: center;
     color: #CEA967;
     font-size: 45px;
 }
+
 #circle-pic{
     height: 200px;
     width: 200px;
@@ -72,11 +89,13 @@ svg{
 #home-nav {
     color: white;
 }
+
 .background{
     background: rgb(243,234,216);
 background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43%, rgba(246,239,226,1) 100%);
 
 }
+
 #circle {
     width: 200px;
     height: 200px;
@@ -84,14 +103,16 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
     -moz-border-radius: 100px;
     border-radius: 100px;
     background: navy;
-  }
-  .circle{
+}
+
+.circle{
     position: absolute;
     bottom: 50%;
     width: 100%;
     text-align: center;
-  }
-  #sname {
+}
+
+#sname {
     margin-top: 100px;
     margin-bottom: 100px;
     color: #CEA967;
@@ -117,6 +138,7 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
     left: 123px; /* change this value to one that suits you */
     top: 56px; /* change this value to one that suits you */
 }
+
 #hoversol {
     display: none;
     transition-duration: 7ms;
@@ -126,15 +148,16 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
 a:hover + #hoversol {
     display: block;
 }
+
 .btnp {
     transition: transform 250ms;
-  }
+}
   
-  .btnp:hover {
+.btnp:hover {
     transform: translateY(-20px);
+}
 
-  }
-  .btnp{
+.btnp{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -144,16 +167,17 @@ a:hover + #hoversol {
     font-size: 20px;
     font-weight: 500;
     line-height: 1;
-  }
-  .zoom-in {
+}
+
+.zoom-in {
     margin: 20px;
     width: 400px;
     height: 400px;
     animation: zoom-in 4s ;
     animation-fill-mode: forwards;
-  }
+}
   
-  @keyframes zoom-in {
+@keyframes zoom-in {
     100% {
       transform: scale(1);
     }
@@ -161,10 +185,26 @@ a:hover + #hoversol {
       transform: scale(1.5);
     }
     
-  }
-  .card{
+}
+
+.whycard{
     width: 600px;
     height: 200px;
     background-color: rgb(245, 245, 245);
     box-shadow: 0px 3px 3px #9798aa57;
-  }
+}
+
+.pinpoint {
+    width: 70px;
+    height: 70px;
+}
+
+#contact-para-1 {
+    color:#202E5F;
+    font-size: 24px;
+}
+
+#contact-header {
+    color: #202E5F;
+
+}
