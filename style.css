@@ -104,7 +104,22 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
     border-radius: 100px;
     background: navy;
 }
-
+.btnp {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: none;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1;
+          }
+.btnp{
+        transition: transform 255ms;
+        
+}
+.btnp:hover {
+        transform: translateY(-15px);
+      }
 .circle{
     position: absolute;
     bottom: 50%;
@@ -116,6 +131,11 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
     height: 200px;
     background-color: rgb(245, 245, 245);
     box-shadow: 0px 3px 3px #9798aa57;
+}
+#why-us-pic{
+    height: 400px;
+    width: 750px;
+
 }
 
 .pinpoint {
