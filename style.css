@@ -1,6 +1,6 @@
 body {
     background-color:rgb(245, 245, 245);
-    font-family: 'Halant', serif;
+    
 }
 
 .nav-custom {
@@ -175,4 +175,38 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
 .rect-text {
     font-size: 28px;
     color: #9798aa;
+}
+
+#arrow {
+    height: 100px;
+    width: 100px;
+    transform: rotate(90deg);
+}
+
+#big-numbers {
+    
+    width: 85px;
+    height: 146px;
+    left: 72px;
+    top: 296px;
+
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 182px;
+    text-align: center;
+
+    color: #202E5F;
+    font-variation-settings: 'slnt' 0;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.btn-schedule {
+    background-color:#202E5F;
+    color: white;
+    border-radius: 50px;
+    font-size: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
