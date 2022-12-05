@@ -91,11 +91,7 @@ svg{
     color: white;
 }
 
-.background{
-    background: rgb(243,234,216);
-background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43%, rgba(246,239,226,1) 100%);
 
-}
 
 #circle {
     width: 200px;
@@ -209,4 +205,7 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
     font-size: 24px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
+.card-text-bg-light {
+    width:220px;
 }
