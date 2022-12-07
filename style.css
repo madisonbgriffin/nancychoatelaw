@@ -150,6 +150,7 @@ svg{
     color: #202E5F;
 
 }
+<<<<<<< Updated upstream
 
 #rectangle {
     position: absolute;
@@ -171,5 +172,22 @@ svg{
 .rect-text {
     font-size: 28px;
     color: #9798aa;
+<<<<<<< Updated upstream
 
 }
+=======
+}
+=======
+.staff{
+    background-image: url(https://nancychoate.com/wp-content/uploads/2022/02/spragins-staff.jpg);
+    height:50vh;
+    width: 500%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: local;
+   font-size: absoulte;
+}
+   
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
