@@ -1,6 +1,6 @@
 body {
     background-color:rgb(245, 245, 245);
-    font-family: 'Halant', serif;
+    
 }
 
 .nav-custom {
@@ -91,11 +91,7 @@ svg{
     color: white;
 }
 
-.background{
-    background: rgb(243,234,216);
-background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43%, rgba(246,239,226,1) 100%);
 
-}
 
 #circle {
     width: 200px;
@@ -175,4 +171,5 @@ background: linear-gradient(0deg, rgba(243,234,216,1) 4%, rgba(222,192,137,1) 43
 .rect-text {
     font-size: 28px;
     color: #9798aa;
-}}
+
+}
