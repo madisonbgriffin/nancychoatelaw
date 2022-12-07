@@ -1,1 +1,0 @@
-document.getElementById("test").children[0].className += " load";
