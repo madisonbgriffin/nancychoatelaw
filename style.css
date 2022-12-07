@@ -38,6 +38,7 @@ img.logo {
     background-color: #202E5F;
     border: none;
     color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-contact:hover {
@@ -111,14 +112,14 @@ svg{
     font-size: 20px;
     font-weight: 500;
     line-height: 1;
-          }
-.btnp{
-        transition: transform 255ms;
-        
+    
+    transition: transform 255ms;
 }
+
 .btnp:hover {
         transform: translateY(-20px);
-      }
+}
+
 .circle{
     position: absolute;
     bottom: 50%;
@@ -134,8 +135,8 @@ svg{
 #why-us-pic{
     height: 400px;
     width: 750px;
-
 }
+
 .pinpoint {
     width: 70px;
     height: 70px;
@@ -251,4 +252,36 @@ svg{
 #phone {
     width: 70px;
     height: 70px;
+}
+
+.pillar-card {
+    max-width: 100%;
+    background-color: #CEA967;
+    color:#202E5F;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    
+    
+}
+
+.testimonial-card {
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px #9798aa57;
+}
+
+
+
+button.accordion-button {
+    background-color: #CEA967 !important;
+    color: white !important;
+}
+
+button.accordion-button.collapsed::after {
+    color: white !important;
+    border-color: #CEA967;
+}
+
+div.accordion-body {
+    background-color: #CEA967;
+    color: white;
 }
