@@ -81,12 +81,24 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
+                      Click to view list
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <ol id="information-to-gather">
+                        <li>Full legal name, date of birth, address (including county) for client.</li>
+                        <li>Death certificate if probate matters.</li>
+                        <li>Names and addresses for all beneficiaries, or heirs, including children from prior marriages, predeceased and adopted children.</li>
+                        <li>Copies of all deeds for real estate <i>within</i> the State of Tennessee.</li>
+                        <li>Copies of all deeds for real estate <i>outside</i> the State of Tennessee.</li>
+                        <li>Copy of most recent bank and/or credit union statements, which show the account number, address of bank/credit union and the style of the account. For probate matters, please include the value as of the date of death.</li>
+                        <li>Copy of the most recent brokerage account statement showing name of account, bokerage company name, address for brokerage company and account number(s). For probate matters, please include the value as of the date of death.</li>
+                        <li>Copy of the most recent IRA, 401 K Pension, or other retirement account statement showing name on account, institution holding funds, account number and addresss. For probate matter, please include the value as of the date of death.</li>
+                        <li>Copy of all vehicle titles, including recreational vehicles, motorcycles, motor homes and vehicles collected, boats, motors etc.</li>
+                        <li>Information on life insurance policy(s) including name of insurance, address of insurance company, policy njumber, name of owner, insured and beneficiary, death benefit and cash value.</li>
+                        <li>For probate matters, you should also bring the original will.</li>
+                      </ol>
                     </div>
                   </div>
                 </div>
@@ -106,7 +118,22 @@
             <div class="col-md-4">
               <br>
               <h3>Download the following forms and fill them out:</h3>
-              <button type="button" class="btn btn-schedule btn-rounded">Schedule Now</button>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Click the links to view a PDF document.
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
