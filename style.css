@@ -134,14 +134,14 @@ svg{
     text-align: center;
 }
 .whycard{
-    width: 600px;
-    height: 200px;
+    width: 700px;
+    height: 250px;
     background-color: rgb(245, 245, 245);
     box-shadow: 0px 3px 3px #9798aa57;
 }
 #why-us-pic{
-    height: 400px;
-    width: 750px;
+    height: 425px;
+    width: 675px;
 }
 
 /*styling for contact-us page*/
@@ -267,3 +267,37 @@ div.accordion-body {
     box-shadow: 0px 3px 3px #9798aa57;
 }
 /*end of styling for testimonial card on home page*/
+#estate-pic{
+    width: 400px;
+    height: 500px;
+}
+#elder-pic{
+    width: 550px;
+    height: 400px;
+}
+#probate-pic{
+    width: 400px;
+    height: 500px;
+}
+#asset-pic{
+    width: 400px;
+    height: 500px;
+}
+#special-pic{
+    width: 400px;
+    height: 500px;
+}
+#veterans-pic{
+    width: 400px;
+    height: 500px;
+}
+#business-pic{
+    width: 400px;
+    height: 400px;
+}
+.card-img{
+    width: 100%;
+}
+.card-title{
+    text-size-adjust: 300px;
+}
