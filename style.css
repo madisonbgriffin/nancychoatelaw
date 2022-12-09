@@ -37,6 +37,10 @@ img.logo {
 #home-nav {
     color: white;
 }
+
+.dropdown-menu {
+    background-color: rgb(245, 245, 245);
+}
 /*end of styling for navbar*/
 
 /*styling for contact button*/
