@@ -74,6 +74,7 @@ svg{
 
 .footer-custom{
     color: #202E5F;
+    text-decoration-line: none;
 }
 
 .footer-custom:hover{
@@ -324,4 +325,14 @@ th {
     max-height: 500px;
     max-width: 400px;
 
+}
+
+/*styles for titles*/
+
+.title {
+    padding-top: 110px;
+}
+
+#titles {
+    color:#202E5F;
 }
