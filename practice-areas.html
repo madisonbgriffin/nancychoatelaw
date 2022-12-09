@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Practice Areas</title>
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,50 +15,55 @@
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
+  <title>Practice Areas</title>
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg nav-custom sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img class="logo" src="IMG/SBC Logo.png" alt="Company Logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item dropdown btn-nav-flex-container">
-            <a class="nav-link activep dropdown-toggle" href="practice-areas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Practice Areas
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#estate-planning">Estate Planning</a></li>
-              <li><a class="dropdown-item" href="#elder-law">Elder Law</a></li>
-              <li><a class="dropdown-item" href="#probate">Probate</a></li>
-              <li><a class="dropdown-item" href="#asset-protection">Asset Protection</a></li>
-              <li><a class="dropdown-item" href="#special-needs-planning">Special Needs Planning</a></li>
-              <li><a class="dropdown-item" href="#business-planning">Business Planning</a></li>
-              <li><a class="dropdown-item" href="#veterans-benefits">Veterans Benefits</a></li>
-            </ul>
-          </li>
-          <li class="nav-item btn-nav-flex-container">
-            <a class="nav-link" href="your-first-visit.html">Your First Visit</a>
-          </li>
-          <li class="nav-item btn-nav-flex-container">
-            <a class="nav-link" href="why-us.html">Why Us?</a>
-          </li>
-          <li class="nav-item btn-nav-flex-container">
-            <a class="nav-link" href="our-staff.html">Our Staff</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact-us.html"><button type="button"
-                class="btn btn-contact btn-nav-flex-container">Contact Us</button></a>
-          </li>
-        </ul>
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg nav-custom fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="IMG/SBC Logo.png" alt="Company Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown btn-nav-flex-container">
+              <a class="nav-link activep dropdown-toggle" href="practice-areas.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Practice Areas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="practice-areas.html#estate-planning">Estate Planning</a></li>
+                <li><a class="dropdown-item" href="practice-areas.html#elder-law">Elder Law</a></li>
+                <li><a class="dropdown-item" href="practice-areas.html#probate">Probate</a></li>
+                <li><a class="dropdown-item" href="practice-areas.html#asset-protection">Asset Protection</a></li>
+                <li><a class="dropdown-item" href="practice-areas.html#special-needs-planning">Special Needs Planning</a></li>
+                <li><a class="dropdown-item" href="practice-areas.html#business-planning">Business Planning</a></li>
+                <li><a class="dropdown-item" href="practice-areas.html#veterans-benefits">Veterans Benefits</a></li>
+              </ul>
+            </li>
+            <li class="nav-item btn-nav-flex-container">
+              <a class="nav-link" href="your-first-visit.html">Your First Visit</a>
+            </li>
+            <li class="nav-item btn-nav-flex-container">
+              <a class="nav-link" href="why-us.html">Why Us?</a>
+            </li>
+            <li class="nav-item btn-nav-flex-container">
+              <a class="nav-link" href="our-staff.html">Our Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html"><button type="button"
+                  class="btn btn-contact btn-nav-flex-container">Contact Us</button></a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
   <section class="title">
     <div class="container text-center py-2">
       <div class="row justify-content-center">
@@ -68,105 +73,219 @@
       </div>
     </div>
   </section>
-  <section id="estate-planning">
+  <section id="estate-planning" class="p-4">
     <div class="container text-center py-5">
       <div class="row align-items-center g-5">
         <div class="col-lg order-lg-1 order-2">
-          <h1>Estate Planning</h1>
+          <h4>Estate Planning</h4>
           <p>
-            Many people believe that estate planning is only for people who are particularly wealthy, have elaborate schemes in mind for passing their money to their heirs, or for people who are acutely ill and contemplating their death. This could not be farther from the truth!
+            Many people believe that estate planning is only for people who are particularly wealthy, have elaborate
+            schemes in mind for passing their money to their heirs, or for people who are acutely ill and contemplating
+            their death. This could not be farther from the truth!
 
-            Estate planning is for every husband, wife, mother, father, grandparent, business owner, professional, or anyone else who has someone they care about, are concerned about providing responsibly for their own well being and for the well being of those they love, and for anyone who seeks to make a difference in the lives of others after they’re gone. Estate planning is not “death planning”; it’s “life planning”, and an essential and rewarding process for individuals and families who engage in it.
+            Estate planning is for every husband, wife, mother, father, grandparent, business owner, professional, or
+            anyone else who has someone they care about, are concerned about providing responsibly for their own well
+            being and for the well being of those they love, and for anyone who seeks to make a difference in the lives
+            of others after they’re gone. Estate planning is not “death planning”; it’s “life planning”, and an
+            essential and rewarding process for individuals and families who engage in it.
 
-            When done properly, estate planning requires that a highly trained individual lead you through one or more in-depth meetings to uncover your hopes, fears, and expectations for yourself and for those who are most important to you. This process almost always requires the preparation of several sophisticated legal documents, but those documents themselves are not “estate planning.” Planning is a process, represented by a complete strategy that is properly documented and maintained by a professional who has taken the time to get to know you, and who is committed to continuing to serve you.
+            When done properly, estate planning requires that a highly trained individual lead you through one or more
+            in-depth meetings to uncover your hopes, fears, and expectations for yourself and for those who are most
+            important to you. This process almost always requires the preparation of several sophisticated legal
+            documents, but those documents themselves are not “estate planning.” Planning is a process, represented by a
+            complete strategy that is properly documented and maintained by a professional who has taken the time to get
+            to know you, and who is committed to continuing to serve you.
+          </p>
+        </div>
+        <div class="col-lg order-lg-2 order-1 py-2">
+          <img src="IMG/estate-planning-picture.jpg" alt="Estate Planning Picture" class="img-fluid rounded" id="estate-planning-dimensions">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="elder-law" class="p-4">
+    <div class="container text-center py-5">
+      <div class="row justify-content-center g-5">
+        <div class="col-lg">
+          <img src="IMG/elder-law-picture.jpg" alt="Elder Law Picture" class="img-fluid rounded" id="elder-law-dimensions">
+        </div>
+        <div class="col-lg">
+          <h4>Elder Law</h4>
+          <p>
+            We can help our older clients and clients with disabilities plan for the future by helping them deal with such issues as Medicaid, Medicare, Social Security, long-term care, asset protection, assisted living housing, and nursing home issues. We can also help them by putting in place a solid Estate Plan. We also have extensive experience in the areas of guardianships and conservatorships. We treat the elderly with the respect and dignity they deserve.
+
+            We assist clients with disabilities with legal planning for their long-term needs. We advise the parents or other family members of disabled persons on how they can effectively provide for them, with careful regard for preserving eligibility for Medicaid and other public benefits. The firm provides information about planning options, drafts supplemental needs trusts and other documents as appropriate, and advises trustees of trust for the benefit of disabled persons concerning trust administration.  We also assist you in completing the complex application for Medicaid benefits and advise you through the application process, ensuring that you retain the maximum income and total assets allowed by law.
+            
+            We work closely with personal injury attorneys and clients to make sure that their settlement funds are properly managed and that they continue to receive the public benefits to which they are entitled. What may appear at first to be a large recovery can be quickly dissipated if invested unwisely or spent on health care needs and living expenses that might be provided by other sources. Proper planning is required to make sure the money lasts a lifetime.
+            
+            Seek appropriate counsel before you apply for and seek to qualify for Medicaid.  We can give you and your family peace of mind during a difficult and uncertain time.  When dealing with Medicaid, legal advice is something you cannot afford to go without.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="probate" class="p-4">
+    <div class="container text-center py-5">
+      <div class="row justify-content-center g-5">
+        <div class="col-lg order-lg-1 order-2">
+          <h4>Probate</h4>
+          <p>
+            If estate planning is the process of designing a playbook, estate administration occurs when the playbook is put into action. The process begins with an event that triggers a provision in your estate plan, such as incapacity or death. The plan becomes “executory”, meaning that the individuals you designated in your plan documents must step into action and execute according to your instructions.
+
+            Estate administration can be complex and the people you have designated must have competent and experienced counsel to guide them through the process. They must make important decisions – sometimes quickly – and they need help to make them wisely. They may need to prepare inventories of your property, prepare tax returns, or sign other important documents on your behalf. Ultimately they must divide and distribute your property to those individuals or charities you identified in your will or trust agreement.
+
+            The estate administration process carries a lot of responsibilities. We can help guide your loved ones through the process as sensitively and completely as possible, and will try to make it as straightforward and efficient as possible.
           </p>
         </div>
         <div class="col-lg order-lg-2 order-1">
-          <img src="IMG/estate-planning-picture.jpg" alt="Estate Planning Picture" class="img-fluid rounded">
+          <img src="IMG/probate-picture.jpg" alt="Probate Picture" class="img-fluid rounded" id="probate-dimensions">
         </div>
       </div>
     </div>
   </section>
-  <section id="elder-law">
-    <div class="container text-center py-2">
-      <div class="row justify-content-center">
+  <section id="asset-protection" class="p-4">
+    <div class="container text-center py-5">
+      <div class="row justify-content-center g-5">
         <div class="col-lg">
-          <img src="IMG/elder-law-picture.jpg" alt="Elder Law Picture" class="img-fluid rounded">
+          <img src="IMG/asset-protection-picture.jpg" alt="Asset Protection Picture" class="img-fluid rounded" id="asset-protection-dimensions">
         </div>
         <div class="col-lg">
-          <h1>Elder Law</h1>
-          <p>blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh</p>
+          <h4>Asset Protection</h4>
+          <p>
+            Most states prohibit so-called “self-settled” asset protection trusts, or a trust you establish yourself for your benefit, yet which purports to protect the trust assets from creditors. However, there is a trend among the states to allow these types of trusts, and several states have recently changed their laws to permit them including Alaska, Delaware, Nevada, Rhode Island, South Dakota, Tennessee, Utah and a few others.
+
+            With a domestic self-settled asset protection trust, you irrevocably transfer assets to the trust and name yourself as a beneficiary to receive distributions within the discretion of an independent trustee. You may, however, retain certain rights, including the right to remove and replace the trustee as long as the replacement trustee is also independent and not a related or subordinate party as defined in the Internal Revenue Code. By retaining a limited power to appoint the trust assets to specific family members at your death, the transfer is incomplete for gift tax purposes and therefore you are not required to file a federal gift tax return. If the trust is designed as incomplete for gift tax purposes, the trust remains part of your estate but the assets should remain free from the claims of your creditors. If designed as a completed gift for tax purposes, others will be the primary beneficiaries but you might still entitled to receive discretionary needs benefits should you be without sufficient resources to maintain your lifestyle.
+
+            The self-settled asset protection trust laws vary from state to state and, therefore, there may be advantages to selecting one state’s laws over another in your particular circumstances. Fortunately, you can elect to have your trust governed by a particular state’s statute as long as you meet the requirements of that statute, which typically include that the trust assets be located within that state and managed by a local trustee.  Note that self-settled asset protection trusts are only effective for future creditors, as the fraudulent transfer laws of all states prohibit transfers to avoid existing creditors. Also, the trust must be in existence for at least 10 years to protect you against creditors in bankruptcy.
+          </p>
         </div>
       </div>
     </div>
   </section>
-  <section id="probate">
-    <div class="container text-center py-2">
-      <div class="row justify-content-center">
+  <section id="special-needs-planning" class="p-4">
+    <div class="container text-center py-5">
+      <div class="row justify-content-center g-5">
         <div class="col-lg order-lg-1 order-2">
-          <h1>Probate</h1>
-          <p>blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh</p>
+          <h4>Special Needs Planning</h4>
+          <p>
+            A Special Needs Trust is a trust that can supplement the needs of a special needs beneficiary while allowing the beneficiary to maintain his or her governmental benefits, including Supplemental Security Income (SSI), Social Security and Medicaid. With medical advancements, persons with disabilities are living longer and public benefits are often necessary, yet there is no guarantee that public benefits will provide adequate resources over the disabled person’s lifetime, or that existing public agencies will continue to provide acceptable services and advocacy over a disabled person’s lifetime.
+
+            If the special needs trust is established by you or someone other than the disabled person and the disabled person does not have the legal right to demand trust assets, the trust is not considered a “countable resource” for purposes of government benefits. Therefore, the special needs trust beneficiary can continue to receive benefits even though he or she is a trust beneficiary. The trust will give the trustee the discretion to make distributions to the beneficiary to the extent possible without reducing benefits, and trust assets are available if the beneficiary no longer qualifies for governmental assistance or that assistance is no longer available.
+
+            If the trust is established on the beneficiary’s behalf pursuant to court order, for example as part of a personal injury settlement, the trust will not impact the beneficiary’s eligibility, but it may need to include a payback provision that reimburses the state for its assistance before trust assets pass to the trust’s other beneficiaries.
+
+            Common savings vehicles for children, like Uniform Transfer to Minor Acts (UTMA) accounts, typical trusts, or designating a retirement plan, insurance policy or annuity directly to an SSI or Medicaid recipient will cause a reduction or elimination of public benefits. Recognizing this, some parents make the difficult decision to disinherit their special needs children, but this severe action is unnecessary.
+          </p>
         </div>
         <div class="col-lg order-lg-2 order-1">
-          <img src="IMG/" alt="Probate Picture" class="img-fluid rounded">
+          <img src="IMG/special-needs-planning-picture.jpg" alt="Special Needs Planning Picture" class="img-fluid rounded" id="special-needs-dimensions">
         </div>
       </div>
     </div>
   </section>
-  <section id="asset-protection">
-    <div class="container text-center py-2">
-      <div class="row justify-content-center">
+  <section id="business-planning" class="p-4">
+    <div class="container text-center py-5">
+      <div class="row justify-content-center g-5">
         <div class="col-lg">
-          <img src="IMG/pinpoint.png" alt="Asset Protection Picture" class="img-fluid rounded">
+          <img src="IMG/business-planning-picture.jpg" alt="Business Planning Picture" class="img-fluid rounded" id="business-planning-dimensions">
         </div>
         <div class="col-lg">
-          <h1>Asset Protection</h1>
-          <p>blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh</p>
+          <h4>Business Planning</h4>
+          <p>
+            Have you been looking forward to the day you can retire, perhaps turn your business over to a son or daughter, or sell it? Even if you are not planning to stop working, you need to plan for the day you cannot run your business due to unforeseen illness or death. Most business owners do not take the time to plan for how they will leave their business. They are busy running the company, or they don’t know where to start. But if you continue to own a business until you die, it will be included in your estate and could be subject to substantial estate taxes. Your family could be forced to sell the business or its assets at “fire sale” prices. Then you will have worked hard all these years so that the vultures and Uncle Sam, not your family, will reap the benefits.
+
+            Planning for how you will exit from your business should be an integral part of your estate and retirement planning. Proper planning now can provide you with retirement income, reduced income and estate taxes, and even let you benefit a charity if you so choose, regardless of whether you transfer your business to family members at discounted values, to employees, or to an outside buyer. In today’s market, the economy and trends are affecting the timing and value of business transfers.
+
+            Planning now to exit your company will result in you and your family receiving the best possible results, both now and after your retirement, disability or death. You can receive retirement income; you can transfer your business to your family, your employees or an outside buyer; you can make a difference for a charity or your community; and you can do all of this with reduced income, gift and estate taxes.
+          </p>
         </div>
       </div>
     </div>
   </section>
-  <section id="special-needs-planning">
-    <div class="container text-center py-2">
-      <div class="row justify-content-center">
+  <section id="veterans-benefits" class="p-4">
+    <div class="container text-center py-5">
+      <div class="row justify-content-center g-5">
         <div class="col-lg order-lg-1 order-2">
-          <h1>Special Needs Planning</h1>
-          <p>blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh</p>
+          <h4>Veterans Benefits</h4>
+          <p>
+            If you are a Veteran, or the spouse of a Veteran, you may be eligible for the VA Improved Pension Benefits.  A great number of Americans who have proudly served our country during wartime are unaware and thus not able to take full advantage of the financial support that they have earned by their sacrifice for our country.  These benefits were established by the VA to provide Veterans and their spouses with financial assistance with the increasing costs of medical expenses, assisted living facilities, and in-home nursing care. You do NOT have to have a service related injury to qualify for these particular benefits. Moreover, it doesn’t require a Veteran to be impoverished and destitute before he or she qualifies. It allows veterans and their spouse to live out their lives in dignity and afford basic necessities.
+          </p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How can I apply?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Our office is committed to helping Veterans and their spouses receive the benefits they deserve. As an accredited VA attorney, Nancy has the experience and knowledge to determine whether Veterans are eligible for the Improved Pension program and guide you through the application process. If a Veteran is ineligible for the program, but can become eligible by following federal regulations, then our office will create and execute a plan to establish eligibility and will guide you through the application process.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Qualifications
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Veteran must have served at least 1 day during a qualified war period</li>
+                    <li>Veteran must have served at least 90 days of active duty</li>
+                    <li>Veteran received a better than dishonorable discharge</li>
+                    <li>Claimant is either over 65 years of age OR totally disabled</li>
+                    <li>Claimant is a surviving spouse of a qualified and did not remarry</li>
+                    <li>Claimant or spouse needs assistance with activities of daily living (ADLs)</li>
+                    <li>Claimant’s monthly medical expenses equals or exceeds their monthly income</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What is the maximum amount in benefits I can receive?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Types of Pension</th>
+                          <th scope="col">Single Qualified Veteran</th>
+                          <th scope="col">Qualified Veteran with Spouse</th>
+                          <th scope="col">Surviving Spouse of Veteran</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Aid & Attendance</th>
+                          <td>$1,830/Month</td>
+                          <td>$2,169/Month</td>
+                          <td>$1,176/Month</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg order-lg-2 order-1">
-          <img src="IMG/pinpoint.png" alt="Special Needs Planning Picture" class="img-fluid rounded">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="business-planning">
-    <div class="container text-center py-2">
-      <div class="row justify-content-center">
-        <div class="col-lg">
-          <img src="IMG/pinpoint.png" alt="Business Planning Picture" class="img-fluid rounded">
-        </div>
-        <div class="col-lg">
-          <h1>Business Planning</h1>
-          <p>blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="veterans-benefits">
-    <div class="container text-center py-2">
-      <div class="row justify-content-center">
-        <div class="col-lg order-lg-1 order-2">
-          <h1>Veterans Benefits</h1>
-          <p>blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh blah blah blahhhhhh</p>
-        </div>
-        <div class="col-lg order-lg-2 order-1">
-          <img src="IMG/pinpoint.png" alt="Veterans Benefits Picture" class="img-fluid rounded">
+          <img src="IMG/veterans-benefits-picture.jpg" alt="Veterans Benefits Picture" class="img-fluid rounded" id="veterans-benefits-dimensions">
         </div>
       </div>
     </div>
   </section>
 
-  
+
   <footer class=" text-center text-lg-start py-3">
     <div class="container p-4">
       <div class="row">

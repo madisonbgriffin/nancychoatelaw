@@ -248,16 +248,27 @@ div.accordion-body {
     background-color: #CEA967;
     color: white;
 }
+
+.table {
+    color: white;
+}
+
+th {
+    font-weight: normal;
+}
+
 /*end of styling for accordions*/
 
 #nancy{
     height: 500px;
     width: 500px;
 }
+
 .btn-lg{
     width: 200px;
 
 }
+
 .caption {
     position: relative;
     top: 50%;
@@ -305,4 +316,12 @@ div.accordion-body {
 }
 .card-title{
     text-size-adjust: 300px;
+}
+
+/* styling for practice areas pictures*/
+
+#estate-planning-dimensions {
+    max-height: 500px;
+    max-width: 400px;
+
 }
