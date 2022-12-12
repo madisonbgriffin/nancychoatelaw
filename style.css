@@ -336,3 +336,17 @@ th {
 #titles {
     color:#202E5F;
 }
+.staffcard{
+    width: 100%;
+}
+.staffs-picture{
+    width: 100%;
+}
+
+.background-image{
+    position: relative;
+    background-image: url(IMG/spragins-staff.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
