@@ -14,35 +14,32 @@ body {
 }
 
 #header-info {
-    margin-top: 250px;
-}
- 
-/*styling for schedule button*/
-.btn-outline-schedule {
-    color: #202E5F;
-    border-radius: 24px;
-    border-color: #202E5F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-width: 6px;
-    font-size: large;
-    text-decoration: none;
+    height: 80vh;
 }
 
-.btn-outline-schedule:hover {
-    background-color: #202e5fac;
-    color: white;
-    border-color: #202e5fac;
-    text-decoration: none;
+#nancy-big-title {
+    font-size: 70px;
 }
+
+#nancy-subtitle {
+    font-size: 24px;
+}
+
+#home-caption {
+    font-size: 30px;
+}
+
+
 
 /*styling for learn more button*/
+
 .btn-outline-learn {
     color: #999eb0;
-    border-radius: 24px;
+    border-radius: 30px;
     border-color: #999eb0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-width: 6px;
-    font-size: large;
+    border-width: 4px;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -113,27 +110,29 @@ img.logo {
 /*end of styling for contact button*/
 
 /*styling for footer*/
-footer{
-    background-color:#9798aa;
-    color: #202E5F;
+.copyright {
+    background-color:#202E5F;
 }
 
-svg{
-    text-align: center;
+.footer-custom {
+    background-color:#2d385f;
+    color: white;
 }
 
-.bottom{
-    text-align: bottom;
+.icons-custom {
+    text-decoration: none;
 }
 
-.footer-custom{
-    color: #202E5F;
-    text-decoration-line: none;
+#icon-footer {
+    color:#CEA967;
+    height: 20px;
+    width: 20px;
 }
 
-.footer-custom:hover{
-    color: #CEA967;
+#icon-footer:hover {
+    color:#999eb0;
 }
+
 /*end of styling for footer*/
 
 .custom-header{
@@ -419,7 +418,6 @@ th {
 
 /*styling for staff page image header*/
 .background-image{
-    position: relative;
     background-image: url(IMG/spragins-staff.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -431,3 +429,22 @@ th {
 .nancy-text{
     size: 30PX;
 }
+
+#title-staff {
+    padding-top: 730px;
+    text-align: center;
+}
+.nancy-email{
+    color: #202E5F;
+}
+.nancy-email:hover{
+    color: #CEA967;
+}
+.nancy-phone{
+    color: #202E5F;
+}
+.nancy-phone:hover{
+    color: #CEA967;
+}
+
+
