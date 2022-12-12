@@ -3,6 +3,56 @@ body {
     
 }
 
+/*styling for index.html header*/
+#home-picture {
+    background: rgba(0, 0, 0, .65) url(IMG/home-newest-picture.jpg);
+    background-blend-mode: darken;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+#header-info {
+    margin-top: 250px;
+}
+ 
+/*styling for schedule button*/
+.btn-outline-schedule {
+    color: #202E5F;
+    border-radius: 24px;
+    border-color: #202E5F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-width: 6px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.btn-outline-schedule:hover {
+    background-color: #202e5fac;
+    color: white;
+    border-color: #202e5fac;
+    text-decoration: none;
+}
+
+/*styling for learn more button*/
+.btn-outline-learn {
+    color: #999eb0;
+    border-radius: 24px;
+    border-color: #999eb0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-width: 6px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.btn-outline-learn:hover {
+    background-color: #999eb0a8;
+    color: white;
+    border-color: #999eb0a8;
+    text-decoration: none;
+}
+
 /*styling for navbar*/
 .nav-custom {
     background-color: rgb(245, 245, 245);
@@ -22,6 +72,10 @@ body {
 }
 
 .nav-link:hover{
+    color: #CEA967;
+}
+
+#home-nav:hover{
     color: #CEA967;
 }
 
@@ -216,12 +270,21 @@ svg{
 }
 
 #phone {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 
 #information-to-gather {
     text-align: left;
+}
+
+#forms {
+    color: white;
+
+}
+
+#forms:hover {
+    color: #202E5F;
 }
 /*styling for your-first-visit page*/
 
@@ -282,7 +345,12 @@ th {
     border-radius: 10px;
     box-shadow: 0px 3px 3px #9798aa57;
 }
+
+.quoter {
+    font-weight: bold;
+}
 /*end of styling for testimonial card on home page*/
+
 #estate-pic{
     padding-bottom: 150px;
     width: 400px;
@@ -319,23 +387,29 @@ th {
     text-size-adjust: 300px;
 }
 
-/* styling for practice areas pictures*/
+/* styling for practice areas page*/
 
 #estate-planning-dimensions {
     max-height: 500px;
     max-width: 400px;
-
 }
+
+#practice-areas-paragraphs {
+    font-size: 14px !important;
+}
+
 
 /*styles for titles*/
 
 .title {
-    padding-top: 110px;
+    padding-top: 120px;
 }
 
 #titles {
     color:#202E5F;
 }
+
+/*styling for staff card*/
 .staffcard{
     width: 100%;
 }
@@ -343,10 +417,17 @@ th {
     width: 100%;
 }
 
+/*styling for staff page image header*/
 .background-image{
     position: relative;
     background-image: url(IMG/spragins-staff.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.staff-header{
+    color: white;
+}
+.nancy-text{
+    size: 30PX;
 }
